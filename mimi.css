@@ -1,0 +1,831 @@
+/* ---------- Resets */
+body {
+	margin: 0;
+	padding: 0;
+}
+img {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Libre Baskerville', serif;
+	margin: 0;
+	padding: 0;
+  text-align: center;
+}
+h1 {
+  font-size: 30px;
+  padding: 10px;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	line-height: 22px;
+  font-size: 16px;
+  padding: 0 15px 0 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+#maincolumn {
+	max-width: 320px; /*for mobile, change in query*/
+	margin: 0 auto;
+}
+/* ---------- Mobile LOGIN----------*/
+.loginbody {
+	background: url("https://images.unsplash.com/photo-1504648492881-a5150829085c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=770721c6c1140bfdc8fcdfb91cac6d98&auto=format&fit=crop&w=1650&q=80") no-repeat right top;
+}
+
+.logbox {
+	background-color: #fff;
+	padding: 20px;
+	margin: 20px;
+}
+
+.logbox > form {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+.logbox > form > .button {
+	padding: 10px;
+	margin-top: 20px;
+}
+/* ---------- Mobile File Upload----------*/
+.filebody {
+	background: url("https://images.unsplash.com/photo-1514823529749-16594073828c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=41dce261369a9ad34212781680079089&auto=format&fit=crop&w=1650&q=80") no-repeat right top;
+}
+.logerror {
+	color: red;
+	font-size: 12px;
+	text-align: left;
+}
+
+/* ---------- Mobile HOME----------*/
+/* ---------- Header */
+#logo {
+  margin: 25px auto 10px auto;
+  width: 70%;
+  text-align: center;
+}
+#topnav {
+	margin:15px;
+}
+
+#topnav > ul {
+	list-style: none;
+	margin:0;
+	padding: 0;
+  text-align: center;
+}
+#topnav > ul > li {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+#topnav > ul > li > a {
+	font-size: 16px;
+  font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	padding: 10px;
+	display: block;
+}
+
+#topnav > ul > li > .active {
+  color: #7CC030;
+}
+
+#topnav ul li a:hover {
+	color: #D3D3D3;
+}
+#topnav ul li a:active {
+	color: #7CC030;
+}
+
+/* ---------- Body */
+/* ---------- Slideshow */
+.slider {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.slide {
+  /* width: 100%; */
+  flex-shrink: 0;
+  height: 200px;
+}
+
+.dotslide {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.dotslide > a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  color: #D3D3D3;
+  padding: 5px;
+}
+.dotslide > a:hover {
+  color: #000;
+}
+.dotslide > a:active {
+  top: 1px;
+}
+.dotslide > a:focus {
+  background: #000;
+}
+
+/* ---------- main paragraph */
+#intro {
+  text-align: center;
+}
+.leaf{
+  text-align: center;
+  margin: 30px;
+}
+.leaf i {
+  color: #D3D3D3;
+  font-size: 20px;
+  padding: 5px;
+}
+
+/* ---------- Top Picks */
+
+#toppicks {
+  box-sizing: border-box;
+}
+#toppicks h2{
+  text-align: center;
+  font-size: 22px;
+  padding-bottom: 20px;
+}
+#toppicks .grid {
+  padding: 10px;
+  margin-bottom: 30px;
+}
+#toppicks img {
+    /* height: 220px; */
+    width: 50%;
+    margin: 0 auto;
+}
+#toppicks h3, h4{
+  text-decoration: none;
+}
+#toppicks h3{
+  font-size: 16px;
+  padding: 5px;
+  margin-top: 10px;
+}
+#toppicks h4{
+  font-style: italic;
+  font-size: 14px;
+  color: #D3D3D3;
+  padding-bottom: 10px;
+  line-height: 24px;
+  font-family: 'Open Sans', sans-serif;
+}
+#toppicks .rate {
+  text-align: center;
+}
+#toppicks .rate i {
+    padding: 2px;
+}
+/* ---------- FOOTER */
+.totop {
+  text-align: right;
+}
+.totop i {
+  font-size: 18px;
+  color: #000;
+  padding: 5px 20px 20px 5px;
+}
+.totop i:hover {
+  color: #D3D3D3;
+}
+.totop i:active {
+  color: #7CC030;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  overflow: hidden;
+  position: relative;
+}
+footer:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.3;
+    background-image: url("https://images.unsplash.com/photo-1528208079124-a2387f039c99?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=54cb024e8c199272158560d22264c185&auto=format&fit=crop&w=1500&q=80");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+footer .footinfo {
+  margin: 0 auto;
+  padding: 35px 25px 35px 25px;
+  position: relative;
+  z-index: 2;
+}
+footer h2 {
+  font-weight: 400;
+  padding: 15px 15px 10px 15px;
+  line-height: 34px;
+}
+footer h4 {
+  font-style: italic;
+  padding: 0 10px 10px 10px;
+  color: #D3D3D3;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+footer i {
+  font-size: 25px;
+  padding: 10px;
+  color: #fff;
+}
+footer i:hover {
+  color: #D3D3D3;
+}
+footer i:active {
+  color: #7CC030;
+}
+footer .newsletter {
+  padding: 20px 0 20px 0;
+	width: 100%;
+}
+footer input {
+	padding: 5px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+footer .button {
+	background-color: #D3D3D3;
+	border:none;
+	border-radius: 5px;
+	color: #fff;
+	width: 100px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 7px;
+}
+
+footer .button:hover {
+	background-color: #7CC030;
+}
+
+footer .button:active {
+	background-color: #7CC030;
+}
+
+footer .email {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background-color: #fff;
+}
+footer .email:focus {
+  border: 3px solid #7CC030;
+}
+
+footer .copyright {
+  text-align: right;
+  padding: 10px;
+  font-size: 10px;
+  color: #D3D3D3;
+  position: relative;
+  z-index: 2;
+}
+/* ---------- Mobile ABOUT ----------*/
+/* ---------- Hero image */
+.abouthero {
+  overflow: hidden;
+  height: 100px;
+  position: relative;
+  margin-bottom: 30px;
+}
+.abouthero img {
+width: 100%;
+position: absolute;
+left: 0;
+bottom: 0;
+/* height: 220px; */
+}
+/* ---------- about info */
+.about {
+  overflow: hidden;
+}
+.about img {
+    display: none;
+}
+.about h2 {
+  text-align: left;
+  padding: 15px;
+}
+
+.about.right > h2 {
+  text-align: right;
+}
+.about.right > p {
+  text-align: right;
+}
+.about .abutton > a {
+  color: #fff;
+  background-color: #7CC030;
+  padding: 10px 20px 10px 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  width: 15%;
+  border-radius: 5px;
+  text-align: center;
+}
+.about .abutton {
+  margin: 20px 15px 40px 15px;
+  width: 100%;
+}
+/* .about .abutton.browse {
+  text-align: right;
+} */
+.about .abutton > a:hover {
+  background-color: #D3D3D3;
+}
+.about .abutton > a:active {
+  background-color: #D3D3D3;
+}
+.about .social {
+  font-size: 20px;
+  padding: 20px 10px 10px 15px;
+}
+.about .social > a {
+  color: #7CC030;
+  padding-right: 10px;
+}
+.about .social > a:hover {
+  color: #D3D3D3;
+}
+.about .social > a:active {
+  color: #D3D3D3;
+}
+/* ---------- Mobile Browse----------*/
+/* ---------- form */
+.browsing {
+  padding: 20px 0 20px 0;
+	width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.browsing input {
+	padding: 5px;
+  font-family: 'Open Sans', sans-serif;
+  border: 2px solid #D3D3D3;
+  border-radius: 5px;
+  background-color: #fff;
+  margin: 10px;
+}
+
+.browsing .button {
+	background-color: #7CC030;
+  color: #fff;
+  display: block;
+  border: none;
+  margin: 0 auto;
+	font-size: 14px;
+}
+
+.browsing .button:hover {
+	background-color: #D3D3D3;
+}
+
+.browsing .button:active {
+	background-color: #D3D3D3;
+}
+.browsing .field:focus {
+  border: 3px solid #7CC030;
+}
+/* ---------- table */
+
+table {
+  font-family: 'Open Sans', sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+}
+
+table .button {
+  background-color: #7CC030;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+table .button:hover {
+  background-color: #D3D3D3;
+}
+
+table .button:active {
+  background-color: #D3D3D3;
+}
+th, td {
+  padding: 10px;
+}
+th {
+  border-bottom: 2px solid #7CC030;
+  text-align: left;
+}
+th, td {
+  border-right: 2px solid #D3D3D3;
+}
+/* ---------- Mobile My Books----------*/
+/* ---------- form */
+.mybooks {
+  margin-bottom: 30px;
+}
+
+/* ---------- Mobile contact----------*/
+/* ---------- form */
+.contact {
+  /* padding: 20px 0 20px 0; */
+  width: 100%;
+  text-align: center;
+  margin: 30px 0 30px 0;
+}
+.contact .field {
+  font-family: 'Open Sans', sans-serif;
+  border: none;
+  border-bottom: 2px solid #D3D3D3;
+  margin-top: 20px;
+  width: 40%;
+  font-size: 14px;
+}
+.contact .field.mes {
+  border: 2px solid #D3D3D3;
+  margin-bottom: 30px;
+  height: 100px;
+
+}
+
+.contact .button {
+  background-color: #7CC030;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+  font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+.contact .button:hover {
+  background-color: #D3D3D3;
+}
+
+.contact .button:active {
+  background-color: #D3D3D3;
+}
+
+/*-----------Gallery Mobile ------*/
+
+div.gallery .cell {
+    width: 100%;
+    height: auto;
+		display: inline-block;
+		box-sizing: border-box;
+		margin: 0 auto;
+}
+
+.responsive {
+    padding: 10px;
+    float: left;
+    width: 100%;
+		box-sizing: border-box;
+}
+/*-----------Upload Mobile ------*/
+.allowed {
+	font-size: 12px;
+	padding-bottom: 0px;
+	text-align: center;
+}
+#upload {
+	padding-top: 5px;
+	margin-bottom: 0px;
+}
+a.togal {
+	font-family: 'Open Sans', sans-serif;
+	color: #7CC030;
+	text-align: right;
+	display: block;
+}
+
+@media (min-width: 640px) {
+	/* ---------- Ipad LOGIN----------*/
+
+	.logbox {
+		width: 50%;
+		margin: 50% auto;
+	}
+	.logbox > form {
+		font-size: 16px;
+	}
+	.logbox > form > .button {
+		font-size: 18px;
+	}
+
+	/* -------------------------- IPAD HOME----------*/
+	/* ---------- Header */
+
+  header {
+    overflow: hidden;
+  }
+  #logo {
+    margin: 25px;
+    width: 30%;
+    display: inline;
+  }
+  #topnav {
+  	margin: 30px 15px 15px 15px;
+    float: right;
+  }
+/* ---------- Body */
+  #maincolumn {
+  	max-width: 640px; /*for ipad, change in query*/
+  }
+/* ---------- Slideshow */
+  .slider {
+    height: 550px;
+  }
+  .slide {
+    height: 550px;
+  }
+  .dotslide {
+    margin: 10px 0 20px 0;
+  }
+  /* ---------- main paragraph */
+  #intro {
+    margin-top: 25px;
+    }
+  h1 {
+    font-size: 42px;
+    padding: 15px;
+  }
+  p {
+    font-size: 22px;
+    padding: 15px;
+    line-height: 36px;
+  }
+  .leaf{
+    margin: 20px 20px 30px 20px;
+  }
+  .leaf i {
+    font-size: 30px;
+    padding: 10px;
+  }
+/* ---------- Top Picks */
+
+  #toppicks {
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  h2{
+    font-size: 36px;
+    padding-bottom: 30px;
+  }
+  #toppicks .grid {
+    float: left;
+    width: 50%;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+  }
+  /* Clearfix (clear floats) */
+  #toppicks .topbook::after {
+      content: "";
+      clear: both;
+      display: table;
+  }
+  #toppicks img {
+      width: 75%;
+  }
+  #toppicks h3{
+    font-size: 18px;
+  }
+  #toppicks h4{
+    font-size: 16px;
+  }
+/* ---------- FOOTER */
+  .totop i {
+    font-size: 26px;
+    padding: 0 30px 20px 0px;
+  }
+  footer h2 {
+    line-height: 45px;
+  }
+  footer .footinfo {
+    padding: 45px 25px 35px 25px;
+    width: 50%;
+  }
+  footer .copyright {
+    font-size: 12px;
+  }
+  /* ---------- IPAD ABOUT ----------*/
+  /* ---------- Hero image */
+  .abouthero {
+    height: 300px;
+  }
+  /* ---------- content */
+  .about img {
+      display: block;
+      float: left;
+      width: 50%;
+      padding: 20px;
+      box-sizing: border-box;
+  }
+  .about .imgclub {
+    float: right;
+    box-sizing: border-box;
+  }
+  .about .abutton > a{
+    padding: 15px 25px 15px 25px;
+    font-size: 16px;
+    width: 20%;
+  }
+  .about .abutton {
+    margin: 20px 15px 80px 15px;
+    width: 100%;
+  }
+  .about .social {
+    font-size: 26px;
+    padding: 20px 10px 10px 15px;
+  }
+  /* ---------- IPAD Browse----------*/
+  /* ---------- form */
+  .browsing .button {
+    display: inline-block;
+    margin: 10px;
+  }
+/* ---------- gallery */
+	.responsive {
+			 width: 100%;
+			 margin: 10px 10px;
+	 }
+}
+
+
+
+@media (min-width: 960px) {
+
+	/* -------------------------- Desktop HOME----------*/
+	/* ---------- Header */
+  #logo {
+    width: 20%;
+  }
+  #topnav {
+  	margin: 30px 25px 15px 15px;
+  }
+/* ---------- Body */
+  #maincolumn {
+  	max-width: 960px;
+  }
+/* ---------- Slideshow */
+  .slider {
+    height: 650px;
+  }
+  .slide {
+    height: 650px;
+  }
+  /* ---------- main paragraph */
+  #intro {
+    margin-top: 25px;
+  }
+  h1 {
+    font-size: 38px;
+  }
+  p {
+    font-size: 18px;
+    padding: 10px 15px 15px 15px;
+    line-height: 34px;
+  }
+  .leaf{
+    margin: 30px 20px 40px 20px;
+  }
+
+/* ---------- Top Picks */
+
+  #toppicks {
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  h2{
+    font-size: 36px;
+    padding-bottom: 30px;
+  }
+  #toppicks .grid {
+    float: left;
+    width: 25%;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+  }
+  #toppicks img {
+      /* width: 75%; */
+      height: 250px;
+  }
+  #toppicks h3{
+    font-size: 14px;
+  }
+  #toppicks h3:hover {
+    text-decoration: underline;
+  }
+  #toppicks h4{
+    font-size: 12px;
+  }
+/* ---------- FOOTER */
+  .totop i {
+    font-size: 30px;
+  }
+	/* footer {
+		width: 100%;
+	} */
+  footer .footinfo {
+    padding: 55px 25px 35px 25px;
+    width: 50%;
+  }
+  footer .footinfo > h2 {
+    font-size: 28px;
+  }
+  footer .copyright {
+    font-size: 12px;
+  }
+  /* ---------- Desktop ABOUT ----------*/
+  /* ---------- content */
+  h1 {
+    margin-bottom: 30px;
+  }
+  .about img {
+      width: 40%;
+      padding: 20px 40px 20px 20px;
+  }
+  .about .imgclub {
+    padding: 20px 20px 20px 40px;
+  }
+  .about .abutton.browse {
+    text-align: right;
+  }
+  .about .social > a {
+    font-size: 30px;
+  }
+
+	/* ---------- DESK LOGIN----------*/
+
+	.logbox {
+		width: 50%;
+		margin: 25% auto;
+	}
+	.logbox > form {
+		font-size: 16px;
+	}
+	.logbox > form > .button {
+		font-size: 18px;
+	}
+	.logbox > h1 {
+		margin-bottom: 0;
+	}
+	/* ---------- DESK File Upload----------*/
+	.filebody {
+		background: url("https://images.unsplash.com/photo-1514823529749-16594073828c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=41dce261369a9ad34212781680079089&auto=format&fit=crop&w=1650&q=80") no-repeat right top;
+	}
+	.logbox > form > .button.sub {
+		font-size: 14px;
+	}
+	.logerror {
+		color: red;
+		font-size: 12px;
+		padding: 0;
+		text-align: center;
+	}
+	/* ---------- gallery */
+		#maincolumn {
+			overflow: hidden;
+		}
+
+		.responsive {
+				 width: 33.333%;
+				 margin: 10px 0px;
+		 }
+}
